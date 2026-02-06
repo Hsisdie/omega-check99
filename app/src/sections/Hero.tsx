@@ -181,24 +181,24 @@ export default function Hero() {
       {/* Floating Financial Icons */}
       <div ref={floatingIconsRef} className="absolute inset-0 pointer-events-none overflow-hidden">
         {/* Top row */}
-        <FloatingIcon icon={TrendingUp} className="top-[12%] left-[8%]" delay={0} size="lg" />
-        <FloatingIcon icon={IndianRupee} className="top-[15%] right-[12%]" delay={0.5} size="md" />
+        <FloatingIcon icon={TrendingUp} className="hidden md:flex top-[12%] left-[8%]" delay={0} size="lg" />
+        <FloatingIcon icon={IndianRupee} className="top-[15%] right-[8%] md:right-[12%]" delay={0.5} size="md" />
 
         {/* Upper middle */}
-        <FloatingIcon icon={BarChart3} className="top-[25%] left-[18%]" delay={1} size="md" />
-        <FloatingIcon icon={Wallet} className="top-[20%] right-[22%]" delay={1.5} size="sm" />
+        <FloatingIcon icon={BarChart3} className="hidden md:flex top-[25%] left-[18%]" delay={1} size="md" />
+        <FloatingIcon icon={Wallet} className="hidden md:flex top-[20%] right-[22%]" delay={1.5} size="sm" />
 
         {/* Middle row */}
         <FloatingIcon icon={PiggyBank} className="top-[45%] left-[5%]" delay={2} size="lg" />
-        <FloatingIcon icon={Target} className="top-[40%] right-[8%]" delay={2.5} size="md" />
+        <FloatingIcon icon={Target} className="hidden md:flex top-[40%] right-[8%]" delay={2.5} size="md" />
 
         {/* Lower middle */}
-        <FloatingIcon icon={Shield} className="top-[60%] left-[15%]" delay={3} size="sm" />
-        <FloatingIcon icon={TrendingUp} className="top-[55%] right-[18%]" delay={3.5} size="md" />
+        <FloatingIcon icon={Shield} className="hidden md:flex top-[60%] left-[15%]" delay={3} size="sm" />
+        <FloatingIcon icon={TrendingUp} className="hidden md:flex top-[55%] right-[18%]" delay={3.5} size="md" />
 
         {/* Bottom row */}
-        <FloatingIcon icon={IndianRupee} className="bottom-[20%] left-[10%]" delay={4} size="md" />
-        <FloatingIcon icon={BarChart3} className="bottom-[25%] right-[10%]" delay={4.5} size="lg" />
+        <FloatingIcon icon={IndianRupee} className="hidden md:flex bottom-[20%] left-[10%]" delay={4} size="md" />
+        <FloatingIcon icon={BarChart3} className="bottom-[25%] right-[5%] md:right-[10%]" delay={4.5} size="lg" />
 
         {/* 3D Images - Floating */}
         <img
