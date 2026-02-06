@@ -261,7 +261,7 @@ export default function Hero() {
           <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black text-white leading-[1.1] mb-6">
             <span className="drop-shadow-[0_0_30px_rgba(255,255,255,0.3)]">Nivesh Ki</span>
             <span className="block text-[#39FF14] drop-shadow-[0_0_35px_rgba(57,255,20,0.6)]">
-              Baat
+              Baat 2.0
             </span>
           </h1>
 

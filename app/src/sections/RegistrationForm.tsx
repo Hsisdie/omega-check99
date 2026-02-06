@@ -383,7 +383,7 @@ export default function RegistrationForm() {
               You're Registered! 🎉
             </DialogTitle>
             <DialogDescription className="text-white/60 mt-2">
-              Congratulations! You've successfully registered for <strong className="text-white">Nivesh Ki Baat</strong>.
+              Congratulations! You've successfully registered for <strong className="text-white">Nivesh Ki Baat 2.0</strong>.
               We've sent a confirmation email with all the event details.
             </DialogDescription>
           </DialogHeader>

@@ -88,7 +88,7 @@ function App() {
               {/* Event Badge */}
               <div className="text-center">
                 <div className="inline-flex items-center gap-2 bg-white/5 border border-white/10 px-4 py-2 rounded-full">
-                  <span className="text-[#39FF14] text-sm font-medium">Nivesh Ki Baat 2026</span>
+                  <span className="text-[#39FF14] text-sm font-medium">Nivesh Ki Baat 2.0 2026</span>
                 </div>
                 <p className="text-white/30 text-xs mt-2">22 Feb 2026 • Bhilai, C.G.</p>
               </div>

@@ -85,7 +85,10 @@ export default function Bonuses() {
             <span className="text-[#39FF14] text-sm font-medium">Exclusive Bonuses</span>
           </div>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4">
-            Worth <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#39FF14] to-emerald-400">₹2,999</span> FREE
+            Worth <span className="relative inline-block mx-2">
+              <span className="text-gray-400">₹2,999</span>
+              <div className="absolute top-1/2 left-[-10%] w-[120%] h-[3px] bg-white shadow-[0_0_15px_rgba(255,255,255,1)] rotate-[-12deg] rounded-full"></div>
+            </span> <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#39FF14] to-emerald-400">FREE</span>
           </h2>
           <p className="text-white/60 text-lg max-w-2xl mx-auto">
             Register today and unlock these exclusive bonuses absolutely free of charge

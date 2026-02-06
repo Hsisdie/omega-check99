@@ -52,7 +52,7 @@ export default function LoadingScreen() {
 
         <div className="mt-4 text-center">
           <p className="text-[#39FF14] text-sm font-medium">
-            Nivesh Ki Baat
+            Nivesh Ki Baat 2.0
           </p>
         </div>
 
