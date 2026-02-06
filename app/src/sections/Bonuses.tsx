@@ -87,7 +87,7 @@ export default function Bonuses() {
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4">
             Worth <span className="relative inline-block mx-2">
               <span className="text-gray-400">₹2,999</span>
-              <div className="absolute top-1/2 left-[-10%] w-[120%] h-[3px] bg-white shadow-[0_0_15px_rgba(255,255,255,1)] rotate-[-12deg] rounded-full"></div>
+              <div className="absolute top-1/2 left-0 w-full h-[2px] bg-white shadow-[0_0_8px_rgba(255,255,255,0.8)] rotate-[-12deg] rounded-full"></div>
             </span> <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#39FF14] to-emerald-400">FREE</span>
           </h2>
           <p className="text-white/60 text-lg max-w-2xl mx-auto">
